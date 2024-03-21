@@ -1,0 +1,205 @@
+{
+  "id": "779a4c0d-3a08-410f-b2a3-83d5399d4247",
+  "version": "2.0",
+  "name": "FlipcartDemo",
+  "url": "https://www.flipkart.com/",
+  "tests": [{
+    "id": "998de32d-49cc-4e30-9e1f-85af2a160f33",
+    "name": "TC1_verify",
+    "commands": [{
+      "id": "23071ad5-91ef-428b-b865-e824302e5232",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aefb62bd-e766-4643-bb16-a4be7e561bed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcf99392-60be-419f-b57d-9ba4c70b20ed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2d6f77-b3ba-4940-bb71-07812c94ad3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_30XB9F",
+      "targets": [
+        ["css=.\\_30XB9F", "css:finder"],
+        ["xpath=//body/div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'✕')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e9c36f-04d7-4edf-a449-71b3b3e8f5d6",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.Pke_EE", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39ba58c0-be41-4b2d-80ec-654bab25f62b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3D0G9a:nth-child(2) .YGcVZO",
+      "targets": [
+        ["css=.\\_3D0G9a:nth-child(2) .YGcVZO", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/ul/li[2]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ad9c3e-80e9-494a-8fbf-6202cd99e1ac",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a92576b8-11b8-4179-ac29-6cedf5c4829c",
+    "name": "TC2_verify ",
+    "commands": [{
+      "id": "b3e6c3c0-5305-456b-a602-d03501bea2ca",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68577e72-457f-4eab-895b-7ed08090d432",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec61729-78d8-4e81-8ad5-d759a84b0d63",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Grocery",
+      "targets": [
+        ["linkText=Grocery", "linkText"],
+        ["css=.\\_1ch8e_:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[10]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_12dd661c-843e-4f38-8b97-6ca96cd11cec_1_FBB4FBSRQIC6_MC.4BYE6NISISOE&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Grocery_4BYE6NISISOE&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L0_view-all&cid=4BYE6NISISOE')]", "xpath:href"],
+        ["xpath=//a[10]", "xpath:position"],
+        ["xpath=//a[contains(.,'Grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a9554ea-50f3-4955-bb26-c4762f420447",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Grocery",
+      "targets": [
+        ["linkText=Grocery", "linkText"],
+        ["css=.\\_1ch8e_:nth-child(10)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[10]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_12dd661c-843e-4f38-8b97-6ca96cd11cec_1_FBB4FBSRQIC6_MC.4BYE6NISISOE&otracker=hp_rich_navigation_10_1.navigationCard.RICH_NAVIGATION_Grocery_4BYE6NISISOE&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_10_L0_view-all&cid=4BYE6NISISOE')]", "xpath:href"],
+        ["xpath=//a[10]", "xpath:position"],
+        ["xpath=//a[contains(.,'Grocery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0088c4f-8206-40b1-8715-4491dd708135",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3N4_BX",
+      "targets": [
+        ["css=.\\_3N4_BX", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div[2]/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c27099-febc-4ee9-87ff-6ade893fcb87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.L_FVxe",
+      "targets": [
+        ["css=.L_FVxe", "css:finder"],
+        ["xpath=//img[@alt='Sign in']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div[2]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "260b9b25-ddfa-49b1-85f3-f651af77fd49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Home & Kitchen",
+      "targets": [
+        ["linkText=Home & Kitchen", "linkText"],
+        ["css=.\\_1ch8e_:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/homebdssale23-store?fm=neo%2Fmerchandising&iid=M_20889399-0211-4f98-9988-bdda831e2011_1_FBB4FBSRQIC6_MC.IF1WVE47NIXO&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Home%2B%2526%2BKitchen_IF1WVE47NIXO&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=IF1WVE47NIXO')]", "xpath:href"],
+        ["xpath=//div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Home & Kitchen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aaccb7e-e0f1-49e4-928c-55a664a28151",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.Pke_EE", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f64029-9351-42f3-9099-08668980032a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93f7fd70-88a6-4474-8c1a-c90ad78d4965",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3D0G9a:nth-child(1) .YGcVZO",
+      "targets": [
+        ["css=.\\_3D0G9a:nth-child(1) .YGcVZO", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div/div/div/div/div/header/div/div[2]/form/ul/li/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "636f7188-0a4a-4a5b-9661-23f42b540a58",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7a0221e3-9fd7-46a3-b451-dacee3670712",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["998de32d-49cc-4e30-9e1f-85af2a160f33"]
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
